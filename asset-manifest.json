@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Admin-School/static/css/main.15d2a6cb.css",
+    "main.js": "/Admin-School/static/js/main.ce5d1860.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Admin-School/static/js/787.28cb0dcd.chunk.js",
+    "static/media/schhol.add.jpg": "/Admin-School/static/media/schhol.add.f0f8ddb6ed6afa92e2ff.jpg",
+    "static/media/school.jpeg": "/Admin-School/static/media/school.b0b0aa5b15fc114d10b4.jpeg",
+    "static/media/teacher.jpg": "/Admin-School/static/media/teacher.288aea6d4f517875cff3.jpg",
+    "static/media/lessons2.jpeg": "/Admin-School/static/media/lessons2.cbb5ae6eb5074825be0c.jpeg",
+    "static/media/lessons5.jpeg": "/Admin-School/static/media/lessons5.cbb5ae6eb5074825be0c.jpeg",
+    "static/media/lessons1.jpeg": "/Admin-School/static/media/lessons1.ce5d5b324a9b87740aef.jpeg",
+    "static/media/lessons4.jpeg": "/Admin-School/static/media/lessons4.5b854f72bde51a8936ce.jpeg",
+    "static/media/lessons3.jpeg": "/Admin-School/static/media/lessons3.e42ed9820ef032869a02.jpeg",
+    "static/media/icomoon.svg?dg6gxd": "/Admin-School/static/media/icomoon.ad739887f62825d341b8.svg",
+    "static/media/icomoon.eot?dg6gxd": "/Admin-School/static/media/icomoon.2997badd8be37098ef7b.eot",
+    "static/media/icomoon.woff?dg6gxd": "/Admin-School/static/media/icomoon.1b5262681252a80e5136.woff",
+    "static/media/icomoon.ttf?dg6gxd": "/Admin-School/static/media/icomoon.ef3340f1695a4542258b.ttf",
+    "index.html": "/Admin-School/index.html",
+    "main.15d2a6cb.css.map": "/Admin-School/static/css/main.15d2a6cb.css.map",
+    "main.ce5d1860.js.map": "/Admin-School/static/js/main.ce5d1860.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Admin-School/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15d2a6cb.css",
+    "static/js/main.ce5d1860.js"
+  ]
+}
