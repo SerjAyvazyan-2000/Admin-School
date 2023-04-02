@@ -1,0 +1,54 @@
+@import "src/assets/style/variables";
+.p-sidebar{
+  width: 350px;
+  height: 100vh;
+  background-color: #33335f;
+}
+.dashboard-image{
+   width: 100%;
+   height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.admin-name{
+  padding: 22px;
+  border-bottom: 1px solid red;
+
+  h1{
+    text-align: center;
+    font-size: 40px;
+    color:$white ;
+  }
+}
+.sidebar-block{
+  height: calc(100vh - 300px);
+  overflow-y: scroll;
+
+  ul{
+
+  li{
+    list-style: none;
+    transition: .4s;
+    padding: 20px;
+    font-size: 25px;
+    background-color: white;
+
+
+    a{
+      display: block;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: white;
+      text-align: center;
+
+      &.active{
+        background-color:$green ;
+      }
+    }
+  }
+
+  }
+}

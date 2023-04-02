@@ -1,0 +1,65 @@
+@import "src/assets/style/flex";
+
+.table-school{
+
+  h1{
+    text-align: center;
+    color: gold;
+    padding: 20px;
+    font-size: 40px;
+  }
+}
+
+.table-school{
+
+}
+.table-block{
+  width: 100%;
+ border-collapse:collapse;
+  font-size: 18px;
+
+  td{
+     padding: 30px 15px;
+
+  }
+  th{
+     padding: 30px 15px;
+    border: 2px solid ;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #3a9a9a;
+
+  }
+
+  tbody{
+    border: 2px solid ;
+
+    tr{
+      border: 2px solid ;
+
+      td{
+        border: 2px solid ;
+        text-align: center;
+      }
+    }
+
+  }
+  select{
+     font-size: 20px;
+  }
+}
+.children-checkbox{
+
+  h1{
+     text-align: center;
+    color: gold;
+  }
+   margin: 20px;
+
+  span{
+    margin:10px;
+    font-size: 30px;
+  }
+}
+
+

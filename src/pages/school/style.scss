@@ -1,0 +1,110 @@
+@import "src/assets/style/variables";
+.p-school-block{
+   h1{
+     text-align: center;
+     font-size: 50px;
+     color: gold;
+   }
+}
+
+.school-tools{
+   display: flex;
+  justify-content: center;
+
+
+}
+.schools-block{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+  a{
+     text-decoration: none;
+  }
+}
+
+.btn-add-school{
+   position: relative;
+  padding: 20px 50px;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 40px;
+  overflow: hidden;
+  cursor: pointer;
+
+
+  span{
+     position: relative;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial;
+    letter-spacing: 8px;
+    z-index: 1;
+  }
+
+  .liquid{
+     position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background: #4973ff;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+  }
+}
+.btn-add-school {
+   .liquid::after,
+   .liquid::before{
+      content: '';
+     width: 200%;
+     height: 200%;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     transform: translate(-50%,-75%);
+     background: #000;
+   }
+
+  .liquid::before{
+     border-radius: 45%;
+    background: rgba(30,20,20,2);
+    animation: animate 5s linear infinite;
+  }
+  .liquid::after{
+     border-radius: 40%;
+     background: rgba(20,20,20.5);
+    animation: animate 10s linear infinite;
+  }
+}
+.btn-add-school:hover .liquid{
+  top: 120px;
+}
+@keyframes animate {
+  0% {
+     transform: translate(-50%,-75%)rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%,-75%)rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+@import "src/assets/style/flex";
+
+
+
+
+
+.lessons-content-start{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    gap: 20px;
+}
+.lessons-image{
+    width: 350px;
+   height: 350px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.lessons-name{
+ text-align: center;
+  background-color: white;
+  min-height: 200px;
+  h2{
+     padding: 10px;
+    font-size: 30px;
+  }
+  p{
+     max-width: 350px;
+    padding: 20px;
+    font-size: 20px;
+  }
+}

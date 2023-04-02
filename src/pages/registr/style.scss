@@ -1,0 +1,86 @@
+.G-continer{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0% auto;
+  padding: 0 15px;
+}
+
+.form-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-name{
+  background-color: black;
+  padding: 10px;
+  font-size: 30px;
+
+  h1{
+    color: white;
+    text-align: center;
+  }
+}
+.registr-section{
+  background-color: white;
+
+}
+.registr-deatals{
+  display: flex;
+}
+.input-deatls{
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+.input-name{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+
+}
+.p-input{
+  width: 45%;
+
+  p{
+    color: red;
+  }
+  input{
+    width: 100%;
+    background-color: #d7d2cc;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
+.final-check{
+  h1{
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+  }
+}
+.p-checkbox{
+
+  input{
+    margin: 10px;
+    padding: 10px;
+  }
+}
+.registr-submit{
+
+  button{
+    width: 20%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #e86c6c;
+    cursor: pointer;
+    font-size: 20px;
+  }
+}

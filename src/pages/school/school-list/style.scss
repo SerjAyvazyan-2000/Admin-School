@@ -1,0 +1,25 @@
+@import "src/assets/style/variables";
+.school-content{
+   min-width: 300px;
+    min-height: 300px;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2{
+    padding: 10px;
+  }
+  span{
+ color: #7A91CC;
+  }
+}
+.content-tools{
+   display: flex;
+  justify-content: space-between;
+
+  span{
+     padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color:$green ;
+  }
+}

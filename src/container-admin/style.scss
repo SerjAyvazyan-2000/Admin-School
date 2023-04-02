@@ -1,0 +1,19 @@
+@import "src/assets/style/variables";
+
+.admin-page{
+  display: flex;
+}
+
+.container-admin{;
+  width: calc(100% - 350px);
+  height: 100vh;
+  background-color: #636a71;
+}
+
+.p-content-block{
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow: auto;
+  margin-top: 100px;
+
+}
